@@ -1,0 +1,316 @@
+
+/* Bordered form */
+.box{
+  background-image: url(../images/mina1.jpg); 
+
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.container-top{
+
+  /* text-align: center;
+  vertical-align: middle; */
+  /* justify-content: center; */
+  display: flex;
+
+}
+
+
+.title{
+  margin: auto;
+  margin-left: 2rem;
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 3;
+  color: transparent;
+  text-transform: uppercase;
+  background-image:linear-gradient(to left, #2ecc71,#3498db, #9b59b6, #f39c12);
+  -webkit-background-clip: text;
+  animation: animate 3s linear infinite;
+  -webkit-background-size: 500%;
+  background-size: 500%;
+  font-size:1.3vw;
+}
+@keyframes animate{
+    0%{
+      background-position: 0% 100%;
+    }
+    50%{
+      background-position: 100% 0%;
+    }
+    100%{
+      background-position: 100 0%;
+    }
+}
+
+
+.container1{
+  border-radius: 100%;
+  width: 12%;
+  height: auto;
+  margin: 1rem;
+  position: relative;
+  display: flex;
+  background-color: #008bba00;
+  
+
+}
+
+.penguin{
+  
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0; 
+  transition: .5s ease;
+  /* border-radius: 100%; */
+  }
+  
+.mina{
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  
+  /* border-radius: 100%; */
+}
+
+
+.container1:hover .penguin {
+padding: 4%;
+opacity: 1;
+
+}
+
+body, html {
+  height: 111%;
+  margin: 0;
+}
+
+  /* Full-width inputs */
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background-color: #db37e0;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 1rem;
+  }
+  
+  /* Add a hover effect for buttons */
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Extra style for the cancel button (red) */
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+  
+  /* Center the avatar image inside this container */
+  .container{
+
+   
+    position: relative;
+    
+  }
+  .imgcontainer {
+    margin: 0;
+    height: auto;
+    border-radius: 3rem;
+    display: block;
+    background-color:#f113de17;
+    text-align: center;
+    box-shadow: 25px 25px 50px 0 white inset, -25px -25px 50px 0 white inset; 
+    
+  }
+  img.minamainImg{
+    border-radius: 3rem;
+    width: 15%;
+    position: inherit;
+  }
+  .overlay {
+    display: flex;
+    /* height: 100%;
+    width: 100%; */
+    opacity: 0;
+    
+    transition: .5s ease;
+    background-color: #008bba7a;
+    border-radius: 3rem;
+  }
+
+  .overlay:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4) 0 0);
+  }
+ /* class of Mina penguin and center */
+img.minaTrans {
+  width: 15%;
+  border-radius: 100%;
+  
+}
+img.penguinTrans {
+  width: 15%;
+  border-radius: 100%;
+  
+}
+
+form {
+
+  border: 3px solid #f1f1f1;
+  background-color: #7300b623;
+  border-radius: 10px;
+  width: 20%;
+  
+}
+
+
+.error{
+  margin-bottom: auto;
+  font-weight: bold;
+  color: #f44336;
+}
+
+
+
+#myForm{
+  margin: 3%;
+  margin-left: 10%;
+}
+
+.container:hover .overlay {
+  
+  opacity: 1;
+}
+
+  /* Add padding to containers */
+  .form-element {
+    padding: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+ 
+  }
+  
+  /* The "Forgot password" text */
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (min-width: 400px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+    .cancelbtn {
+      width: 40%;
+      border-radius: 2rem;
+    }
+ 
+  }
+
+  @media (max-width: 768px){
+    .container1{
+      width: 30%;
+    }
+    body, html {
+      height: 135%;
+      margin: 0;
+    }
+    #myForm{
+      width: 70%;
+    }
+  
+  }
+
+
+@media (min-width: 768px) { 
+  .container1{
+    width: 20%;
+  }
+  body, html {
+    height: 140%;
+    margin: 0;
+  }
+ }
+
+
+@media (min-width: 992px) { .container1{
+  width: 12%;
+}
+body, html {
+  height: 160%;
+  margin: 0;
+}
+}
+
+
+@media (min-width: 992px) { 
+  body, html {
+    height: 120%;
+    margin: 0;
+  }
+
+}
+
+
+@media (min-width: 1400px) {   }
+
+ul.items{
+    padding: 2rem;
+    font-size: 16px;
+}
+.pengContainer{
+  position: relative;
+  width: 100%;
+ 
+}
+
+
+
+#img{
+  width: 100%;
+  height: 100%;
+}
+#var{
+  width: 100%;
+  height: 100%;
+}
+#typedtext{
+  font-family: 'Waiting for the Sunrise', cursive; 
+  font-size:25px; 
+  color: #ccc;
+  margin: 10px 50px; 
+  letter-spacing: 6px; 
+  font-weight: bold;
+}
+
+.minaTrans{
+  visibility: visible;
+}
+
+
+#navbarSupportedContent{
+
+}
