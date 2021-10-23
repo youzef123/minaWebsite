@@ -144,10 +144,10 @@ video:hover{
   padding: 1%;
 }
 
-@-webkit-keyframes glow {
+/* @-webkit-keyframes glow {
   from {
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.349),0 0 20px rgb(43, 6, 85),0 0 40px #ffffff83;
-  }
+  } */
   
   /* to {
     text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px ;
@@ -174,3 +174,8 @@ body{
   border-left: 1px dotted #BFA38A;
   height: 85vh;
 }  */
+.sidebar{
+
+  display: flex;
+  flex-direction: column;
+}
