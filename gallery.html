@@ -5,37 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" href="Css/gallery.css">
     <title>Document</title>
     <h1 style="text-align: center; font-size:2vw;">Photocards gallery</h1>
 </head>
 <body>
-   <div class="main">
-         <div class="vidContainer">
-            <video controls src="images/mina.mp4"
-            loop class="vid" type="video/mp4"></video>
+
+   <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="index.html">Mina</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="gallery.html">Gallery <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+       
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li>
+        </ul>
+   
+      </div>
+    </nav>
+
+   
+
+   <!-- <div class="container"> -->
+      <div class="photos">
+      <section class="sidebar">
+         <div class="images4">
+            <img src="images/4.jpg">
+            <div class="overlay">
+                  <!-- <div class="quote" ><h2>Mina Myoui</h2> -->
+                  <!-- </div> -->
+            </div>
          </div>
-         <div class="vidContainer2">
-            <video controls src="images/mina2.mp4"
-            loop class="vid2" type="video/mp4"></video>
-         </div>
-         <div class="vidContainer3">
-            <video controls src="images/mina3.mp4"
-            loop class="vid3" type="video/mp4"></video>
-         </div>
-         <div class="vidContainer4">
-            <video controls src="images/mina4.mp4"
-            loop class="vid4" type="video/mp4"></video>
-         </div>
-         <div class="container">
-            <div class="photos">
-               <div class="images4">
-                  <img src="images/4.jpg">
-                  <div class="overlay">
-                        <div class="quote" ><h2>Mina Myoui</h2>
-                        </div>
-                  </div>
-               </div>
             <div class="images1">
                <img src="images/1.jpg" >    
             </div>
@@ -76,9 +94,33 @@
             <div class="images14">
                <img src="images/14.jpg" >
             </div>
+         </section>
                </div>
-         </div>   
+         <!-- </div>    -->
+ 
+<!-- 
+   <div class="vidContainer">
+      <video controls src="images/mina.mp4"
+      loop class="vid" type="video/mp4"></video>
    </div>
-        <script src="gallery.js"></script>
+   <div class="vidContainer2">
+      <video controls src="images/mina2.mp4"
+      loop class="vid2" type="video/mp4"></video>
+   </div>
+   <div class="vidContainer3">
+      <video controls src="images/mina3.mp4"
+      loop class="vid3" type="video/mp4"></video>
+   </div>
+   <div class="vidContainer4">
+      <video controls src="images/mina4.mp4"
+      loop class="vid4" type="video/mp4"></video>
+   </div> -->
+   <!-- <script src="gallery.js"></script> -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
 </body>
+
+
+
+
 </html>
