@@ -1,9 +1,11 @@
 
 /* Bordered form */
-.box{
+.bg-image{
   background-image: url(../images/mina1.jpg); 
-
   height: 100%;
+  padding: 1rem;
+
+
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
@@ -81,7 +83,7 @@
   /* border-radius: 100%; */
 }
 
-
+/* The hover transition from girl to penguin */
 .container1:hover .penguin {
 padding: 4%;
 opacity: 1;
@@ -128,11 +130,9 @@ body, html {
   
   /* Center the avatar image inside this container */
   .container{
-
-   
-    position: relative;
-    
+    position: relative; 
   }
+  /* The visible container */
   .imgcontainer {
     margin: 0;
     height: auto;
@@ -148,12 +148,10 @@ body, html {
     width: 15%;
     position: inherit;
   }
+
   .overlay {
     display: flex;
-    /* height: 100%;
-    width: 100%; */
     opacity: 0;
-    
     transition: .5s ease;
     background-color: #008bba7a;
     border-radius: 3rem;
@@ -162,7 +160,9 @@ body, html {
   .overlay:hover {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4) 0 0);
   }
- /* class of Mina penguin and center */
+
+
+ /* The gif animation on top right */
 img.minaTrans {
   width: 15%;
   border-radius: 100%;
@@ -171,26 +171,22 @@ img.minaTrans {
 img.penguinTrans {
   width: 15%;
   border-radius: 100%;
-  
 }
 
-form {
 
+/* The login From */
+form {
   border: 3px solid #f1f1f1;
   background-color: #7300b623;
   border-radius: 10px;
   width: 20%;
-  
 }
-
 
 .error{
   margin-bottom: auto;
   font-weight: bold;
   color: #f44336;
 }
-
-
 
 #myForm{
   margin: 3%;
@@ -284,8 +280,6 @@ ul.items{
  
 }
 
-
-
 #img{
   width: 100%;
   height: 100%;
@@ -305,9 +299,4 @@ ul.items{
 
 .minaTrans{
   visibility: visible;
-}
-
-
-#navbarSupportedContent{
-
 }
