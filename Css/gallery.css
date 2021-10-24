@@ -144,11 +144,10 @@ video:hover{
 
 } 
 .bg-img{
-
-  /* background-color: aqua; */
-  /* width: 100%; */
-  height: 150vh;
-  padding: 1%;
+  background-image: url('../images/bg2temp.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 @-webkit-keyframes glow {
@@ -157,7 +156,7 @@ video:hover{
   } 
   
    to {
-    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px ;
+    text-shadow: 0 0 20px #fff, 0 0 30px #f3de80, 0 0 40px #f3ff4d, 0 0 50px #e8f71e, 0 0 60px ;
   } 
 }
 
