@@ -85,7 +85,6 @@
 .container1:hover .penguin {
 padding: 4%;
 opacity: 1;
-
 }
 
 body, html {
@@ -199,7 +198,6 @@ form {
 }
 
 .container:hover .overlay {
-  
   opacity: 1;
 }
 
