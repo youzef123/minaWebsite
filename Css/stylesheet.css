@@ -26,7 +26,6 @@
   margin: auto;
   margin-left: 2rem;
   position: relative;
-  font-family: Arial, Helvetica, sans-serif;
   line-height: 3;
   color: transparent;
   text-transform: uppercase;
@@ -37,6 +36,7 @@
   background-size: 500%;
   font-size:1.3vw;
 }
+
 @keyframes animate{
     0%{
       background-position: 0% 100%;
@@ -49,7 +49,23 @@
     }
 }
 
-
+/* #typedtext{
+  position: relative;
+}
+#typedtext::after{
+  content: "";
+  position: absolute;
+  animation: blink 0.5s in infinite
+}
+@keyframes blink{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+} */
+/* container of girl and penguin */
 .container1{
   border-radius: 100%;
   width: 12%;
@@ -58,8 +74,6 @@
   position: relative;
   display: flex;
   background-color: #008bba00;
-  
-
 }
 
 .penguin{
@@ -127,14 +141,19 @@ body, html {
     padding: 10px 18px;
     background-color: #f44336;
   }
-  
-  /* Center the avatar image inside this container */
+
+
+
+  /* this consist of two div in the middle div */
   .container{
+    overflow-wrap: break-word;
     position: relative; 
   }
+
   /* The visible container */
   .imgcontainer {
-    margin: 0;
+    max-width: 100%; 
+    overflow-wrap: break-word;
     height: auto;
     border-radius: 3rem;
     display: block;
@@ -143,14 +162,19 @@ body, html {
     box-shadow: 25px 25px 50px 0 white inset, -25px -25px 50px 0 white inset; 
     
   }
-  img.minamainImg{
-    border-radius: 3rem;
-    width: 15%;
-    position: inherit;
+.minamainImg{
+    
+    box-shadow: 25px 25px 50px 0 white inset, -25px -25px 50px 0 white;
+    width: 100%;
   }
-
+/* div of img */
   .overlay {
-    display: flex;
+    overflow-wrap: break-word;
+    overflow: hidden;
+    display: grid;
+
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-auto-rows: 200px;
     opacity: 0;
     transition: .5s ease;
     background-color: #008bba7a;

@@ -6,21 +6,36 @@ hover.addEventListener("mouseover",  typewriter)
 penguinDetect.addEventListener("mouseover",  () =>{
   minaTransition.style.visibility = 'hidden'
 });
-
-
  outMouse = () =>{
   minaTransition.style.visibility = 'visible'
 };
 
+// const quote = ["Keep working hard, do the best that you can, and everything will fall into place. <h4>-Mina</h4>"]
+// let count = 0;
+// let index = 0;
+// let currentText = "";
+// let letter = "";
+
+// (function type(){
+//   if(count === quote.length){
+//     count = 0;
+//   }
+//   currentText = quote[count];
+//   letter = currentText.splice(0 , ++index);
+//   destination.textContent = letter;
+//   if(letter === currentText.length){
+//     count++;
+//     index = 0 ;
+//   }
+//   setTimeout(type, 400);
+// }());
 
 
 // our element
 
 
 
-function clear(){
 
-}
 var aText = new Array(
     "“Keep working hard, do the best that you can, and everything will fall into place." , 
    "<h4>-Mina</h4>"
