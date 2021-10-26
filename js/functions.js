@@ -6,11 +6,11 @@ penguinDetect.addEventListener("mouseover",  () =>{
   minaTransition.style.visibility = 'hidden'
 });
 
-
 outMouse = () =>{
   minaTransition.style.visibility = 'visible'
 };
-// destination.addEventListener("mouseover", type)
+
+//ANIMATION OF TEXT
 const quote = ["Keep working hard, do the best that you can, and everything will fall into place. -Mina"]
 let count = 0;
 let index = 0;
@@ -32,7 +32,7 @@ let letter = "";
 }());
 
 
-// our element
+// DATABASE PART IN THE NEXT VERSION
 
 
 

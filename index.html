@@ -5,43 +5,97 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  
+   
+    
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" href="Css/stylesheet.css"> 
+    <link rel="icon" href="images/Logo.png">
+      
        <title>Mina page</title>
-    
 
-    <!--My css Dom lol-->
-    <!--Mina picture-->
-    <nav class="navbar navbar-expand-lg navbar navbar-light" style="background-color: #e3f2fd;">
-      <a class="navbar-brand" href="#">Mina</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <!-- Nav bar -->
+    <nav class="navbar navbar-expand-lg navbar navbar-light font-weight-bold" style="background-color: #e3f2fd;">
+      <a class="navbar-brand" href="./index.html">
+        <svg width="67" height="62" viewBox="0 0 67 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g id="Group 1">
+            <!-- This is Home bar -->
+          <g id="Home" filter="url(#filter0_d_1:11)">
+          <path d="M15.8047 37H14.4854V32.3994H9.46777V37H8.15527V27.0469H9.46777V31.3262H14.4854V27.0469H15.8047V37ZM17.6025 33.2334C17.6025 32.5088 17.7438 31.8571 18.0264 31.2783C18.3135 30.6995 18.71 30.2529 19.2158 29.9385C19.7262 29.624 20.3073 29.4668 20.959 29.4668C21.9661 29.4668 22.7796 29.8154 23.3994 30.5127C24.0238 31.21 24.3359 32.1374 24.3359 33.2949V33.3838C24.3359 34.1038 24.1969 34.751 23.9189 35.3252C23.6455 35.8949 23.2513 36.3392 22.7363 36.6582C22.2259 36.9772 21.638 37.1367 20.9727 37.1367C19.9701 37.1367 19.1566 36.7881 18.5322 36.0908C17.9124 35.3936 17.6025 34.4707 17.6025 33.3223V33.2334ZM18.874 33.3838C18.874 34.2041 19.0632 34.8626 19.4414 35.3594C19.8242 35.8561 20.3346 36.1045 20.9727 36.1045C21.6152 36.1045 22.1257 35.8538 22.5039 35.3525C22.8822 34.8467 23.0713 34.1403 23.0713 33.2334C23.0713 32.4222 22.8776 31.766 22.4902 31.2646C22.1074 30.7588 21.597 30.5059 20.959 30.5059C20.3346 30.5059 19.8311 30.7542 19.4482 31.251C19.0654 31.7477 18.874 32.4587 18.874 33.3838ZM27.1113 29.6035L27.1455 30.4238C27.6878 29.7858 28.4193 29.4668 29.3398 29.4668C30.3743 29.4668 31.0785 29.8633 31.4521 30.6562C31.6982 30.3008 32.0173 30.0137 32.4092 29.7949C32.8057 29.5762 33.2728 29.4668 33.8105 29.4668C35.4329 29.4668 36.2578 30.3258 36.2852 32.0439V37H35.0205V32.1191C35.0205 31.5905 34.8997 31.1963 34.6582 30.9365C34.4167 30.6722 34.0111 30.54 33.4414 30.54C32.972 30.54 32.5824 30.6813 32.2725 30.9639C31.9626 31.2419 31.7826 31.6178 31.7324 32.0918V37H30.4609V32.1533C30.4609 31.0778 29.9346 30.54 28.8818 30.54C28.0524 30.54 27.485 30.8932 27.1797 31.5996V37H25.915V29.6035H27.1113ZM41.2686 37.1367C40.266 37.1367 39.4502 36.8086 38.8213 36.1523C38.1924 35.4915 37.8779 34.6097 37.8779 33.5068V33.2744C37.8779 32.5407 38.0169 31.8867 38.2949 31.3125C38.5775 30.7337 38.9694 30.2826 39.4707 29.959C39.9766 29.6309 40.5234 29.4668 41.1113 29.4668C42.0729 29.4668 42.8203 29.7835 43.3535 30.417C43.8867 31.0505 44.1533 31.9574 44.1533 33.1377V33.6641H39.1426C39.1608 34.3932 39.3727 34.9834 39.7783 35.4346C40.1885 35.8812 40.708 36.1045 41.3369 36.1045C41.7835 36.1045 42.1618 36.0133 42.4717 35.8311C42.7816 35.6488 43.0527 35.4072 43.2852 35.1064L44.0576 35.708C43.4378 36.6605 42.5081 37.1367 41.2686 37.1367ZM41.1113 30.5059C40.6009 30.5059 40.1725 30.6927 39.8262 31.0664C39.4798 31.4355 39.2656 31.9551 39.1836 32.625H42.8887V32.5293C42.8522 31.8867 42.679 31.39 42.3691 31.0391C42.0592 30.6836 41.64 30.5059 41.1113 30.5059Z" fill="black"/>
+          </g>
+          <rect id="Body" x="7.35715" y="31.3571" width="40.7143" height="30" rx="1.5" fill="#4D1C55"/>
+          <g id="Windows" filter="url(#filter1_i_1:11)">
+          <g id="left">
+          <rect id="Rectangle-1" x="20" y="39" width="6" height="6" rx="2" fill-opacity="0.54"/>
+          <rect id="Rectangle-2" x="20" y="47" width="6" height="6" rx="2" fill-opacity="0.54"/>
+          </g>
+          <g id="right">
+          <rect id="Rectangle-3" x="29" y="39" width="6" height="6" rx="2" fill-opacity="0.54"/>
+          <rect id="Rectangle-4" x="29" y="47" width="6" height="6" rx="2" fill-opacity="0.54"/>
+          </g>
+          </g>
+          <g id="Roof" filter="url(#filter2_bdi_1:11)">
+          <path d="M26.706 1.03707C27.1063 0.514281 27.8937 0.514283 28.294 1.03707L50.7689 30.3921C51.2727 31.05 50.8036 32 49.9749 32H5.02506C4.19644 32 3.72733 31.05 4.23106 30.3921L26.706 1.03707Z" fill="#FC70EE" fill-opacity="0.84" shape-rendering="crispEdges"/>
+          <path d="M28.0955 1.18905L50.5704 30.5441C50.9482 31.0375 50.5964 31.75 49.9749 31.75H5.02506C4.40359 31.75 4.05176 31.0375 4.42956 30.5441L26.9045 1.18905C27.2047 0.796956 27.7953 0.796956 28.0955 1.18905Z" stroke="black" stroke-opacity="0.15" stroke-width="0.5" shape-rendering="crispEdges"/>
+          </g>
+          </g>
+          <defs>
+          <filter id="filter0_d_1:11" x="4.15527" y="27.0469" width="43.998" height="18.0898" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+          <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+          <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+          <feOffset dy="4"/>
+          <feGaussianBlur stdDeviation="2"/>
+          <feComposite in2="hardAlpha" operator="out"/>
+          <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+          <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1:11"/>
+          <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1:11" result="shape"/>
+          </filter>
+          <filter id="filter1_i_1:11" x="20" y="39" width="15" height="18" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+          <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+          <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+          <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+          <feOffset dy="4"/>
+          <feGaussianBlur stdDeviation="2"/>
+          <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+          <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+          <feBlend mode="normal" in2="shape" result="effect1_innerShadow_1:11"/>
+          </filter>
+          <filter id="filter2_bdi_1:11" x="0.0232239" y="-2.35503" width="54.9536" height="42.355" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+          <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+          <feGaussianBlur in="BackgroundImage" stdDeviation="1.5"/>
+          <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_1:11"/>
+          <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+          <feOffset dy="4"/>
+          <feGaussianBlur stdDeviation="2"/>
+          <feComposite in2="hardAlpha" operator="out"/>
+          <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+          <feBlend mode="normal" in2="effect1_backgroundBlur_1:11" result="effect2_dropShadow_1:11"/>
+          <feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_1:11" result="shape"/>
+          <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+          <feOffset dx="3" dy="1.5"/>
+          <feGaussianBlur stdDeviation="2"/>
+          <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+          <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+          <feBlend mode="normal" in2="shape" result="effect3_innerShadow_1:11"/>
+          </filter>
+          </defs>
+          </svg>
+      </a>
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="gallery.html">Gallery <span class="sr-only">(current)</span></a>
+          <li class="nav-item">
+            <a class="nav-link" href="./gallery.html">Gallery <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Bio</a>
-          </li>
-       
-    
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
+                <a class="nav-link" href="./bio.html">Bio</a>
+            </li>
           </li>
         </ul>
-   
-      </div>
     </nav>
+    <!-- nav bar end -->
 </head>
 
-       
+
 <body>
-  <!--Images gallery-->
+
 
       <div class="bg-image"> <!-- BACKGROUND IMAGE -->
         <div class="container-top">
@@ -49,17 +103,18 @@
               <div class="mina">
                   <img src="images/minaAnim.gif" class=" minaTrans" id="img">
               
-                <!--penguin Container Div-->  
+                            <!--Penguin Container Div-->  
+
                   <div class="penguin">
                       <img src="images/penguinAnim.gif"  class="penguinTrans" id="var">
                   </div>
                 </div>
-          
             </div>
+          
         <div class="title">
-                      <!-- Text Color Animation -->
-            <h1 class ="topTitle">Minari <span class="animate"></span></h1>
+                             <!-- Text Color Animation -->
 
+            <h1 class ="topTitle">Minari <span class="animate"></span></h1>
         </div>
       </div>
       
@@ -68,7 +123,7 @@
                 <p id ="typedtext" ></p>
         </div>
   
-      <!-- LOGIN FROM -->
+                               <!-- LOGIN FORM -->
       <form method="post" id= "myForm">
         <div class="form">
             <div class="form-element">
@@ -82,21 +137,13 @@
                 </label>
             </div>
         
-          <div class="form-element" style="background-color:#f1f1f1">
+            <div class="form-element" style="background-color:#f1f1f1">
               <button type="button" class="cancelbtn" >Cancel</button>
               <span class="psw" id="psw">Forgot <a href="#">password?</a></span>
             </div>
-      </div>
-      </form>
-
-      </div> <!--bg image div end-->
- 
-
-    <script src="js/functions.js"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
-
-  <!-- <script src="main.js"></script>   -->
-
-</body>
+        </div>
+       </form>
+     </div> <!--bg image div end-->
+     <script src="js/functions.js"></script>
+  </body>
 </html>

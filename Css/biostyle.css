@@ -1,0 +1,105 @@
+body {
+
+    margin: 0;
+    padding: 0;
+    background-color: #efe7ee;
+    font-style: Georgia, "Times New Roman",Times,serif;
+    color: #333;
+}
+.header{
+
+}
+
+
+h1 {
+    padding-top: 2rem;
+    text-align: center;
+    color: rgb(34, 34, 34);
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+a {
+    color: #d21034;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
+}
+
+.container {
+    margin: 0 auto;
+    padding-top: 10px;
+    width: 1024px;
+}
+
+#main-bio, #info, #bio-image {
+    float: left;
+}
+
+#bio-image {
+    padding-right: 15px;
+    width: 200px;
+}
+
+#main-bio {
+    width: 70%;
+}
+
+#info {
+    width: 30%;
+}
+
+:root{
+    --roof: #FC70EE;
+    --box: #4D1C55;
+    --left: #AD00FF; 
+    --right: #AD00FF; 
+  }
+  svg{
+    cursor: pointer;
+  }
+  #Roof{
+    fill: var(--roof)
+  }
+  #Body{
+    fill: var(--box)
+  }
+  #left{
+    fill:var(--left)
+  }
+  #right{
+    fill:var(--right)
+  }
+  #Roof, #Body ,#left ,#right{
+    animation: 1s ease-in-out 0s 1 blink;
+    transition: all 1s ease;
+  }
+  svg:hover #Roof{
+    transform: translateY(-30%);
+    opacity: 0;
+  }
+  svg:hover #Body{
+    transform: translateY(30%);
+    opacity: 0; 
+  }
+  svg:hover #left{
+    transform: translatex(-30%);
+    opacity: 0;
+  }
+  svg:hover #right{
+    transform: translatex(30%);
+    opacity: 0;
+  }
+  @keyframes blink {
+    0%{
+      opacity: 0;
+    }
+    100%{
+      opacity: 1;
+    }
+  }
