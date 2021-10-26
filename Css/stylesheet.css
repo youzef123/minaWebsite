@@ -49,23 +49,8 @@
     }
 }
 
-/* #typedtext{
-  position: relative;
-}
-#typedtext::after{
-  content: "";
-  position: absolute;
-  animation: blink 0.5s in infinite
-}
-@keyframes blink{
-  0%{
-    opacity: 0;
-  }
-  100%{
-    opacity: 1;
-  }
-} */
-/* container of girl and penguin */
+
+/* container of the girl and a penguin */
 .container1{
   border-radius: 100%;
   width: 12%;
