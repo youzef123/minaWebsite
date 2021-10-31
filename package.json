@@ -1,0 +1,29 @@
+{
+  "name": "minari",
+  "version": "1.0.0",
+  "description": "Great functionality",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "build": "",
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+
+  },
+  "engines": {
+    "node": "12"
+  }
+  ,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/youzef123/minaWebsite.git"
+  },
+  "author": "Yousef Tayuan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/youzef123/minaWebsite/issues"
+  },
+  "homepage": "https://github.com/youzef123/minaWebsite#readme"
+}
